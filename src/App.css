@@ -1,0 +1,34 @@
+.square{
+    height: 200px;
+    width: 200px;
+    float: left;
+    font-size: 150px;
+}
+
+.urow:after{
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.mrow:after{
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.urow{
+    margin-top: 100px;
+    margin-left:100px;
+}
+
+.mrow{
+    margin-left:100px;
+}
+
+.lrow{
+    margin-left:100px;
+}
+
+
+
